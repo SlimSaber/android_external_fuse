@@ -43,7 +43,8 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_CFLAGS := \
 	-D_FILE_OFFSET_BITS=64 \
 	-DFUSE_USE_VERSION=26 \
-    -fno-strict-aliasing
+        -fno-strict-aliasing \
+        -Os
 
 LOCAL_MODULE := libfuse
 LOCAL_MODULE_TAGS := optional
